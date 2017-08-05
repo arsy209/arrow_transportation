@@ -1,0 +1,214 @@
+
+.topmail {
+  color: darkred;
+}
+
+
+/**************
+
+BUTOONS STYLE
+
+***********/
+.btn {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  border: 0px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.btn i {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.btn-theme-bg {
+  background-color: #ee5068;
+  color: #fff;
+}
+.btn-theme-bg:hover, .btn-theme-bg:focus {
+  color: #fff;
+  background-color: #333;
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 15px;
+}
+
+/***services****/
+.services-row h1 {
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.service-box {
+  text-align: center;
+}
+.service-box i {
+  font-size: 60px;
+  color: #ee5068;
+}
+.service-box h4 {
+  text-transform: capitalize;
+  margin: 15px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.service-box p {
+  font-size: 13px;
+  color: #999;
+}
+
+/**********
+
+Team
+
+*********/
+.team-section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-color: #f0f5f7;
+}
+
+.team-col {
+  text-align: center;
+}
+.team-col h3 {
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.team-col em {
+  display: block;
+  color: #ee5068;
+  font-size: 13px;
+}
+.team-col ul {
+  margin: 0px;
+}
+.team-col ul li {
+  padding: 0px;
+}
+
+.know-more {
+  padding: 60px 0;
+  padding-bottom: 30px;
+}
+.know-more h3 {
+  margin-bottom: 16px;
+  font-size: 27px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.know-more p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+/****Testimonials***/
+.testimonials {
+  padding: 60px 0;
+  background-color: #eee;
+  overflow: hidden;
+}
+.testimonials .testi-slides img {
+  height: 200px;
+  width: auto;
+  margin-bottom: 10px;
+}
+.testimonials .testi-slides h4 {
+  margin: 0px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.testimonials .testi-slides em {
+  display: block;
+  color: #999;
+  font-weight: 400;
+  font-size: 12px;
+}
+.testimonials .testi-slides p {
+  margin-top: 20px;
+}
+.testimonials .flex-control-paging li a {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+.testimonials .flex-control-paging li a.flex-active {
+  background-color: #ee5068;
+}
+
+/****collapse***/
+.panel-default > .panel-heading {
+  position: relative;
+}
+
+.panel-default > .panel-heading:after {
+  content: '\f067';
+  color: #fff;
+  display: block;
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.panel-default > .panel-heading.active:after {
+  content: '\f068';
+}
+
+
+
+
+.navbar-custom {
+    background-color:#245C9E  ;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.service-header-title {
+  font-weight: bold;
+  color:#A8252B  ;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+            margin-left: 70px;
+}
+
+
+.navbar-custom .navbar-nav > .active > a {
+    color:#87AFDE  ;
+    background-color:transparent;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #87AFDE  ;
+
+}
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+    background-color:white;
+}
+.navbar-custom .icon-bar {
+    background-color:#871B37;
+}
