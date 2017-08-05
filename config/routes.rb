@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   get "/our_fleet" => "home#our_fleet"
   get "/reservations" => "home#reservations"
   get "/billing" => "home#billing"
+
+  get "/airport_car_service" => "services#airport_car_service"
+  get "/corporate_car_service" => "services#corporate_car_service"
 end
