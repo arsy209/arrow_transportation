@@ -70,6 +70,8 @@
  /* Since positioning the image, we need to help out the caption */
  .carousel-caption {
    z-index: 1;
+   background-color: grey;
+     opacity:.9;
  }
 
  /* Declare heights because of positioning of img element */
