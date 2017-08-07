@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   get "/airport_car_service" => "services#airport_car_service"
   get "/corporate_car_service" => "services#corporate_car_service"
+
 end
