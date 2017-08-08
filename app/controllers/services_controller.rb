@@ -8,4 +8,7 @@ class ServicesController < ApplicationController
 
   def executive_car
   end
+
+  def premier_car
+  end
 end
