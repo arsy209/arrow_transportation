@@ -5,4 +5,7 @@ class ServicesController < ApplicationController
 
   def corporate_car_service
   end
+
+  def executive_car
+  end
 end

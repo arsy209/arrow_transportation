@@ -1,0 +1,81 @@
+
+
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.date {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.mugshot {
+  width: 50px;
+  height: 50px;
+}
+
+.img-gallery {
+  padding-top: 30px;
+}
+
+.gallery {
+  align-content: center;
+}
+
+.gallery:before {
+  margin-top: -30px;
+}
+
+.gallery:after {
+  margin-bottom: 30px;
+}
+
+.name {
+  padding-top: 10px;
+}
+
+.dash {
+  display: inline-block;
+  width: 50px;
+  border-top: 2px solid #bb0a1a;
+}
+
+.likes {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.fa-heart {
+  color: #bb0a1a;
+}
+
+.img-hero {
+  max-width: 100%;
+}
+
+.quote {
+  font-family: 'Tangerine', "Brush Script MT", cursive;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 150%;
+  border: none;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+
+.airportt {
+        box-shadow: 10px 10px 5px #888888;
+}
+
+
+.exec1 {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
