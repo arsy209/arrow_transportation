@@ -11,4 +11,7 @@ class ServicesController < ApplicationController
 
   def premier_car
   end
+
+  def locations
+  end
 end

@@ -360,3 +360,83 @@ body {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+
+
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.cards__item {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  @media(min-width: 40rem) {
+    width: 50%;
+  }
+  @media(min-width: 56rem) {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 12px 0 rgba(0,30,49,.28);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 24px;
+  width: 100%;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+  }
+  @media(min-width: 40rem) {
+    &::before {
+      padding-top: 66.6%; // 3:2 aspect ratio
+    }
+  }
+}
+
+.card__image--speaker {
+  background-image: url(https://canneslionsimages.imgix.net/cms-assets/speakers/64a141c60e8d49dab6ea5be498123239_alexander_wang_portrait_photograph_by_steven_klein.jpg?fit=crop&q=75&fm=jpg&w=305&h=184&crop=faces&s=67d71c837d6e658fc095a1f7ae3c13f8);
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.card__job-title,
+.card__company {
+  // flex: 1 1 auto; removed to stop centering text
+  font-size:12px;
+  line-height: 1.5;
+}
