@@ -3,6 +3,9 @@
   margin-top: 100px;
 }
 
+.tess1 {
+  text-align: center;
+}
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=Quattrocento);
 .snip1360 {
@@ -38,7 +41,7 @@ margin-bottom: 100px;
 }
 .snip1360 figcaption {
   width: 100%;
-  background-color: #CAD5EC  ;
+  background-color: #EBF4F9   ;
   padding: 10px 25px 55px;
   position: relative;
 }
@@ -58,8 +61,8 @@ margin-bottom: 100px;
   bottom: 0;
   left: 0;
   padding: 10px;
-  background-color: #cccccc;
-  color: #000000;
+  background-color: #498DBA  ;
+  color: white;
   font-size: 0.8em;
   text-transform: uppercase;
   opacity: 0.65;
